@@ -7,11 +7,10 @@ version: 2
 updates:
   - package-ecosystem: "pip"
     directory: "/"
+    target-branch: “dev”
     schedule:
       interval: "weekly"
-    target-branch: “dev”
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
       interval: "weekly"
-    target-branch: “dev”
